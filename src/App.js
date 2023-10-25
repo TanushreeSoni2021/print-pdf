@@ -4,19 +4,11 @@ import MyDocument from "./MyDocument";
 
 function App() {
   return (
-    <div
-      style={{
-        width: "100vw",
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <PDFViewer width="800" height="600">
+    <>
+      <PDFViewer width="100%" height="773vh">
         <MyDocument />
       </PDFViewer>
-    </div>
+    </>
   );
 }
 
