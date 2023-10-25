@@ -6,7 +6,7 @@ import MyDocument from "./MyDocument";
 function App() {
   return (
     <>
-      <PDFViewer width="100%" height="773vh">
+      <PDFViewer width="100%" height="77 0vh">
         <MyDocument />
       </PDFViewer>
     </>
